@@ -1,0 +1,11 @@
+framework module LiveSplash {
+  umbrella header "LiveSplash.h"
+
+  export *
+  module * { export * }
+}
+
+module LiveSplash.Swift {
+  header "LiveSplash-Swift.h"
+  requires objc
+}

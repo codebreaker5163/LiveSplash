@@ -16,6 +16,9 @@
 		19255E0D2AA74CF2008BE83B /* LiveSplashDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19255E0C2AA74CF2008BE83B /* LiveSplashDemoTests.swift */; };
 		19255E172AA74CF2008BE83B /* LiveSplashDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19255E162AA74CF2008BE83B /* LiveSplashDemoUITests.swift */; };
 		19255E192AA74CF2008BE83B /* LiveSplashDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19255E182AA74CF2008BE83B /* LiveSplashDemoUITestsLaunchTests.swift */; };
+		19255E2C2AA761C4008BE83B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19255E2B2AA761C4008BE83B /* Images.xcassets */; };
+		19255E322AA76299008BE83B /* LiveSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19255E302AA76290008BE83B /* LiveSplash.framework */; };
+		19255E332AA7629A008BE83B /* LiveSplash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19255E302AA76290008BE83B /* LiveSplash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		19255E2F2AA76226008BE83B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19255E332AA7629A008BE83B /* LiveSplash.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		19255DF22AA74CEE008BE83B /* LiveSplashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveSplashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19255DF52AA74CEE008BE83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,8 @@
 		19255E122AA74CF2008BE83B /* LiveSplashDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveSplashDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19255E162AA74CF2008BE83B /* LiveSplashDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSplashDemoUITests.swift; sourceTree = "<group>"; };
 		19255E182AA74CF2008BE83B /* LiveSplashDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSplashDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19255E2B2AA761C4008BE83B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19255E302AA76290008BE83B /* LiveSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveSplash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19255E322AA76299008BE83B /* LiveSplash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +119,7 @@
 		19255DF42AA74CEE008BE83B /* LiveSplashDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19255E302AA76290008BE83B /* LiveSplash.framework */,
 				19255DF52AA74CEE008BE83B /* AppDelegate.swift */,
 				19255DF72AA74CEE008BE83B /* SceneDelegate.swift */,
 				19255DF92AA74CEE008BE83B /* ViewController.swift */,
@@ -106,6 +127,7 @@
 				19255DFE2AA74CF1008BE83B /* Assets.xcassets */,
 				19255E002AA74CF1008BE83B /* LaunchScreen.storyboard */,
 				19255E032AA74CF1008BE83B /* Info.plist */,
+				19255E2B2AA761C4008BE83B /* Images.xcassets */,
 			);
 			path = LiveSplashDemo;
 			sourceTree = "<group>";
@@ -137,6 +159,7 @@
 				19255DEE2AA74CEE008BE83B /* Sources */,
 				19255DEF2AA74CEE008BE83B /* Frameworks */,
 				19255DF02AA74CEE008BE83B /* Resources */,
+				19255E2F2AA76226008BE83B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19255E022AA74CF1008BE83B /* LaunchScreen.storyboard in Resources */,
+				19255E2C2AA761C4008BE83B /* Images.xcassets in Resources */,
 				19255DFF2AA74CF1008BE83B /* Assets.xcassets in Resources */,
 				19255DFD2AA74CEE008BE83B /* Main.storyboard in Resources */,
 			);
@@ -438,6 +462,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36M6V853R2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveSplashDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveSplashDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,6 +473,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +495,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36M6V853R2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveSplashDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveSplashDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,6 +506,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
