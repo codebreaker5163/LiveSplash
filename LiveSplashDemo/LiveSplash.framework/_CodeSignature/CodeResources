@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LiveSplash-Swift.h</key>
 		<data>
-		2rVOOTXoG6gxEOqvQc1gMSHjAus=
+		WRFUuG1w5yVhnuvyR+fJl6iYZVY=
 		</data>
 		<key>Headers/LiveSplash.h</key>
 		<data>
@@ -14,39 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tzz7giXCWNdKL1DYjt+WfQtLKQE=
+		2KC1QJ9qiGTFyG6RhujVtAMf65I=
 		</data>
-		<key>Modules/LiveSplash.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/LiveSplash.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		J8IAXHvmyfM0HcSDkHsgnG3dU0Q=
+		z4bfDblgnww5l2GkSd+rMvLSiis=
 		</data>
-		<key>Modules/LiveSplash.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		LcwDqmFSfpf0rFBLPicCGj1XmQc=
-		</data>
-		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
-		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		p8Ogf9YFZ/ZCh/eErEx3Cm/XjKI=
+		Zi/OheJKYhFMU0jyDr4CUD1OSLQ=
 		</data>
-		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3GO2ppTLYg9lGgkj+v28+bDbg/Q=
-		</data>
-		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
-		</data>
-		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		UGssusLYbenE4NUQNTJoeecHA7s=
-		</data>
-		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		1SoYESamWIldOwf4wXk3dnBzzSo=
+		OiJjcq7HY8iuinQyePr1128n8oc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0tqMY8KThce7KH21jhVAPWhs76GVtiXQllTenPqg1yI=
+			yNJH6Ot9LfWy28hJ8/wXJIXSAm/+IGxYEKgd9N2Ia20=
 			</data>
 		</dict>
 		<key>Headers/LiveSplash.h</key>
@@ -69,60 +53,32 @@
 			lCecu5sNggonnSBFo+kR83k5CZRYHJX5adoxkgfVVDc=
 			</data>
 		</dict>
-		<key>Modules/LiveSplash.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/LiveSplash.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XdZcveBuWkp1QTWriy2cTKsB8TQrix/ytUk795DVwCE=
+			Ui4+0DcQATQPTujNapZkTBQpTvWAZgBl6Kv5DG8CY08=
 			</data>
 		</dict>
-		<key>Modules/LiveSplash.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rje0drsIEin+GzqisKDVRAb8JEzDhg91f1xCWX8DXy8=
-			</data>
-		</dict>
-		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
-		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QpKylCoL5vOUxZETJwvNBVNXdUMZZsffVF8qxg9XESU=
+			7oZD0bwnd9N2kUgOmXy0yyjQISeoc9siqT3nCrXX0kg=
 			</data>
 		</dict>
-		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p8q/PXDU4fqFID6KU2xi00GKi5TVIUORkATSjAhqKWo=
-			</data>
-		</dict>
-		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
-			</data>
-		</dict>
-		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tk7sg2AnaShC4pKLHNTZn+Cm7hs2nlhczyE4SAzgxkU=
-			</data>
-		</dict>
-		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kx7QFb891b5EcxX/QCHcQXkoR8d2xTUN5MAQtF7sTQY=
+			mcf1MgHBqRhXoZJ8OWJIHgwmQIwoQx5Hym5oqy/ljsA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

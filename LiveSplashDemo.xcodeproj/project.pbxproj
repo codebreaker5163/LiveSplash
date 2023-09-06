@@ -17,8 +17,8 @@
 		19255E172AA74CF2008BE83B /* LiveSplashDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19255E162AA74CF2008BE83B /* LiveSplashDemoUITests.swift */; };
 		19255E192AA74CF2008BE83B /* LiveSplashDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19255E182AA74CF2008BE83B /* LiveSplashDemoUITestsLaunchTests.swift */; };
 		19255E2C2AA761C4008BE83B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19255E2B2AA761C4008BE83B /* Images.xcassets */; };
-		19C64AAA2AA8856900269383 /* LiveSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C64AA82AA884AC00269383 /* LiveSplash.framework */; };
-		19C64AAB2AA8856900269383 /* LiveSplash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19C64AA82AA884AC00269383 /* LiveSplash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19C64AB22AA88C3B00269383 /* LiveSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C64AB02AA88C3600269383 /* LiveSplash.framework */; };
+		19C64AB32AA88C3B00269383 /* LiveSplash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19C64AB02AA88C3600269383 /* LiveSplash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				19C64AAB2AA8856900269383 /* LiveSplash.framework in Embed Frameworks */,
+				19C64AB32AA88C3B00269383 /* LiveSplash.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +67,7 @@
 		19255E162AA74CF2008BE83B /* LiveSplashDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSplashDemoUITests.swift; sourceTree = "<group>"; };
 		19255E182AA74CF2008BE83B /* LiveSplashDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSplashDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19255E2B2AA761C4008BE83B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		19C64AA82AA884AC00269383 /* LiveSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveSplash.framework; sourceTree = "<group>"; };
+		19C64AB02AA88C3600269383 /* LiveSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveSplash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C64AAA2AA8856900269383 /* LiveSplash.framework in Frameworks */,
+				19C64AB22AA88C3B00269383 /* LiveSplash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 		19255DF42AA74CEE008BE83B /* LiveSplashDemo */ = {
 			isa = PBXGroup;
 			children = (
-				19C64AA82AA884AC00269383 /* LiveSplash.framework */,
+				19C64AB02AA88C3600269383 /* LiveSplash.framework */,
 				19255DF52AA74CEE008BE83B /* AppDelegate.swift */,
 				19255DF72AA74CEE008BE83B /* SceneDelegate.swift */,
 				19255DF92AA74CEE008BE83B /* ViewController.swift */,
