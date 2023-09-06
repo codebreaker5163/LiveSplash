@@ -28,8 +28,8 @@ func addBlurredLiveView(){
 ```
 
 # Functions Available
-```startAnimation(delayInSec: Double)``` - To start the animation with number of seconds to complete one rotation.
-```addBlur(blurMode: UIBlurEffect.Style, blurLevel: Int)``` - To add a Blurred layer, with BlurStyle and opacity(1 lowest).
+```startAnimation(delayInSec: Double)``` - To start the animation with number of seconds to complete one rotation.<br>
+```addBlur(blurMode: UIBlurEffect.Style, blurLevel: Int)``` - To add a Blurred layer, with BlurStyle and opacity(1 lowest).<br>
 ```stopAnimation()``` - To stop Animation at any time.
 
 # Demo
