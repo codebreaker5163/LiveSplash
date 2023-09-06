@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let splash = LiveSplash(size: self.view.frame, image: UIImage(named: "demoLiveSplash")!)
         splash.startAnimation(delayInSec:15.0)
-        splash.addBlur(blurMode: .light)
+        splash.addBlur(blurMode: .light,blurLevel: 3)
         self.view.addSubview(splash.animatedView())
         self.view.sendSubviewToBack(splash.animatedView())
         

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/LiveSplash.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		IZMe/PjYoAd9fm61BvrrqBdIbxk=
+		J8IAXHvmyfM0HcSDkHsgnG3dU0Q=
 		</data>
 		<key>Modules/LiveSplash.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		z1usOojbxFyk5rOROxQ00o5Sp5M=
+		LcwDqmFSfpf0rFBLPicCGj1XmQc=
 		</data>
 		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GCtSzGjNIawngeSWhHYDTNszN8Y=
+		3GO2ppTLYg9lGgkj+v28+bDbg/Q=
 		</data>
 		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7WBpZEhG8qxY2j7Xk2ByQi2CrFY=
+		1SoYESamWIldOwf4wXk3dnBzzSo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZO41RgFqdyz6d5/JYZSsq/GV5kiwsKHMgapizNVNADk=
+			XdZcveBuWkp1QTWriy2cTKsB8TQrix/ytUk795DVwCE=
 			</data>
 		</dict>
 		<key>Modules/LiveSplash.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFWPOnljX/sJNx/DtRAtTwaQI1aJJ2BFlgqf/pgxsPs=
+			rje0drsIEin+GzqisKDVRAb8JEzDhg91f1xCWX8DXy8=
 			</data>
 		</dict>
 		<key>Modules/LiveSplash.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dduTSpOW/vS9whuHLGJoLRn/en3yPlCWf4vOGLLwHg=
+			p8q/PXDU4fqFID6KU2xi00GKi5TVIUORkATSjAhqKWo=
 			</data>
 		</dict>
 		<key>Modules/LiveSplash.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dz8d+A6kY8A1bK3Sb0AVdnW7rmtG/8l1Y4c2mwwPplI=
+			kx7QFb891b5EcxX/QCHcQXkoR8d2xTUN5MAQtF7sTQY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
